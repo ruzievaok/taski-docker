@@ -92,6 +92,8 @@ jobs:
         # на сервере и в docker-compose.yml не указывать версию
           tags: nix89/taski_backend:latest
 
+### Job для frontend ###
+
   frontend_tests:
       runs-on: ubuntu-latest
 
@@ -126,7 +128,7 @@ jobs:
 
 
 
-### job для gateway
+### job для gateway ###
 
   build_gateway_and_push_to_docker_hub:
     name: Push gateway Docker image to DockerHub
