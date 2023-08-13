@@ -151,7 +151,7 @@ jobs:
           # Тут вместо username должен быть ваш логин на Docker Hub
           tags: nix89/taski_gateway:latest
 
-### Deploy ###
+### Deploy ##
 
   deploy:
     runs-on: ubuntu-latest
